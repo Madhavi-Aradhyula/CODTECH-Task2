@@ -1,7 +1,3 @@
-# 101 Sequence Detector using Mealy and Moore FSMs
-
-## Project Information
-
 **Name**: Madhavi Aradhyula  
 **Company**: CodTech IT Solutions  
 **ID**: CT08DOW  
@@ -15,15 +11,12 @@
 
 This project focuses on implementing a **101 sequence detector** using two common types of finite state machines (FSMs): **Mealy** and **Moore**. Both implementations detect the binary sequence "101" with overlapping support, meaning the detector can reuse bits from a previous sequence for subsequent detections.  
 
----
 
 ## Key Objectives  
 
 1. To implement both **Mealy** and **Moore** state machines for the same sequence detection task and highlight the differences in their behavior.  
 2. To simulate and verify the designs in a Verilog environment.  
 3. To optionally synthesize the designs for FPGA implementation.  
-
----
 
 ## Key Features  
 
@@ -35,8 +28,6 @@ This project focuses on implementing a **101 sequence detector** using two commo
 ### Moore Machine  
 - Outputs depend only on the **current state**.  
 - Easier to debug and simulate due to its **state-dependent output**.  
-
----
 
 ## Application  
 
